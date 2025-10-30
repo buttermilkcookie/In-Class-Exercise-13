@@ -5,6 +5,78 @@
 }
 
 html {
-  font-size: 24px;
-  color: #144031;
+  font-size: 28px;
+  color: #dddddf;
+  background-color: #0c0f1d;
+  font-family: 'Amiri', sans-serif;
+  text-align: center;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+  
+}
+
+h1 {
+  padding: 1rem 1rem 1.5rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #1b1d2a;
+  color: #556de5;
+}
+
+h2 {
+  font-size: 1.2rem;
+  padding-bottom: .5em;
+  font-weight: 600;
+}
+
+p {
+  font-size: .6rem;
+  padding-bottom: .5em;
+  font-weight: 200px;
+}
+
+a {
+  font-size: 0.45rem;
+  font-weight: 500;
+  color: #556de5;
+  text-transform: uppercase;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.section-content{
+    display: grid;
+    grid-template: repeat(3, 300px) / repeat(2, 300px);
+    margin-bottom: 150px;
+}
+
+.textbox1, .textbox2, .textbox3 {
+  padding: 1rem 1rem 0 1rem;
+}
+
+.image1 {
+  background-image: url("assets/Character Level.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.image2 {
+  background-image: url("assets/Quests.png");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.image3 {
+  background-image: url("assets/Spiral Abyss.png");
+  background-size: cover;
+  background-position: center;
 }
